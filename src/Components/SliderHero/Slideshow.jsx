@@ -36,8 +36,8 @@ const slideImages = [
     caption: "Slide 3",
     price: "$5000",
     linkpromo: "",
-    title: "Summer Deals",
-    info: "Este verano refrescate con nuestros combos",
+    title: "Prepara tus tragos preferidos",
+    info: "¡Aprovecha nuestras ofertas!",
     buttonInfo: "¡Aprovechalos!",
   },
 ];

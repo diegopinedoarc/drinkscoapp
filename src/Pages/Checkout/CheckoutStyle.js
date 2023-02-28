@@ -5,9 +5,9 @@ export const CheckoutWrapper = styled.div`
   width: 90vw;
   gap: 1rem;
   margin-bottom: 1rem;
-  height: 100vh;
+
   @media only screen and (max-width: 624px) {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }

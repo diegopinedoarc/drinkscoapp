@@ -3,7 +3,7 @@ import { Formik as FormikContainer, Form as FormikForm } from "formik";
 export const CheckoutDatosStyled = styled.div`
   width: 80%;
   flex-wrap: wrap;
-  margin-top: 2rem;
+
   @media only screen and (max-width: 624px) {
     flex-direction: column;
     justify-content: center;

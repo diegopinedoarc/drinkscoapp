@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const ProductsContainerStyled = styled.div`
   width: 40%;
+
   @media only screen and (max-width: 624px) {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -49,7 +50,7 @@ export const CardsWrapperStyled = styled.div`
   }
 
   @media (max-height: 800px) {
-    height: 270px;
+    height: auto;
   }
 
   @media (max-width: 1500px) {
