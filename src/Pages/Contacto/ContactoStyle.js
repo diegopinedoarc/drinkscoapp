@@ -7,6 +7,7 @@ export const ContactoContainerStyled = styled.div`
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+  height: 100vh;
 `;
 
 export const ContactoTitulo = styled.h2`
@@ -19,4 +20,5 @@ export const ContactoTitulo = styled.h2`
 
 export const ContactoP = styled.p`
   text-align: center;
+  margin-bottom: 2rem;
 `;

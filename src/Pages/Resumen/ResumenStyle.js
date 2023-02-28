@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const ResumenContainerStyled = styled.div`
   padding: 2rem 7rem;
+  height: 100vh;
 `;
 
 export const ResumenTitleStyled = styled.div`

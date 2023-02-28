@@ -34,8 +34,9 @@ export const MisOrdenesContainer = styled.div`
   flex-direction: column;
   margin-bottom: 10rem;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 `;
 
 export const MisOrdenesTitle = styled.h2``;

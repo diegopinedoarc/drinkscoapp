@@ -10,6 +10,7 @@ const Congrats = () => {
         marginTop: "6rem",
         fontSize: "2rem",
         textAlign: "center",
+        height: "100vh",
       }}
     >
       ¡Pronto a vas a poder disfrutar tu compra!

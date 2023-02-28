@@ -7,6 +7,8 @@ export const RecuperarPasswordContainer = styled.div`
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+  margin-bottom: 2rem;
+  height: 100vh;
 `;
 export const Form = styled(FormikForm)`
   display: flex;

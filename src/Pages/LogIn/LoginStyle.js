@@ -10,6 +10,8 @@ export const LoginContainerStyled = styled.div`
   margin-top: 20px;
   width: 100%;
   margin-top: 2rem;
+  height: 100vh;
+  margin-bottom: 2rem;
   /* border: 1px solid black; */
   /* background-color: var(--negroheader); */
   @media only screen and (max-width: 624px) {

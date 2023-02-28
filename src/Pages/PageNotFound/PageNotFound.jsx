@@ -10,6 +10,8 @@ const PageNotFound = () => {
         marginTop: "6rem",
         fontSize: "2rem",
         textAlign: "center",
+        height: "100vh",
+        marginBottom: "2rem",
       }}
     >
       PageNotFound Error # 404
