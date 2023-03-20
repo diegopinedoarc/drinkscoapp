@@ -45,18 +45,20 @@ export const SlideInfoContainer = styled.div`
   flex-direction: column;
   align-items: center;
   width: 40rem;
-  height: 10rem;
+  height: auto;
   border: 1px solid white;
   background-color: white;
   opacity: 70%;
   color: black;
-  padding: 1.5rem;
+  padding: 2.2rem;
   text-align: center;
   gap: 1rem;
   border-radius: 0.5rem;
 
   @media only screen and (max-width: 624px) {
     width: 16rem;
+    height: 14rem;
+    justify-content: center;
   }
   @media only screen and (max-width: 1000px) and (min-width: 624px) {
   }

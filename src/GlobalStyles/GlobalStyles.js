@@ -45,6 +45,6 @@ background: linear-gradient(to top, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C,
 }
 a {
     text-decoration: none;
-    color: wheat;
+    color: black;
 }
 `;

@@ -42,6 +42,11 @@ const Menu = () => {
             </ItemLink>
           </li>
           <li>
+            <ItemLink onClick={handleClick} to="blog">
+              Blog
+            </ItemLink>
+          </li>
+          <li>
             <ItemLink onClick={handleClick} to="login">
               <UserNavStyled>
                 <UserContainerStyled

@@ -29,6 +29,7 @@ const Header = () => {
         <MenusWrapper>
           <Menu />
           <CartIcon />
+
           <CartModal />
           <UserModal />
           {/* <motion.div whileTap={{ scale: 0.92 }}> */}

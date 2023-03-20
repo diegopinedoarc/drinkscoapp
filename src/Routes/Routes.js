@@ -11,6 +11,7 @@ import RecuperarPassword from "../Pages/RecuperarPassword/RecuperarPassword";
 import PageNotFound from "../Pages/PageNotFound/PageNotFound";
 import Congrats from "../Pages/Congrats/Congrats";
 import Resumen from "../Pages/Resumen/Resumen";
+import Blog from "../Pages/Blog/Blog";
 
 const Routes = () => {
   return (
@@ -32,6 +33,7 @@ const Routes = () => {
       <Route path="/congrats" element={<Congrats />} />
       <Route path="*" element={<PageNotFound />} />
       <Route path="/resumen" element={<Resumen />} />
+      <Route path="/blog" element={<Blog />} />
     </ReactDomRoutes>
   );
 };

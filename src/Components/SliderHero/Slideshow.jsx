@@ -35,10 +35,10 @@ const slideImages = [
     url: "https://res.cloudinary.com/dpxe6utid/image/upload/v1677427148/drinksCo/banner2_whoncn.png",
     caption: "Slide 3",
     price: "$5000",
-    linkpromo: "",
+    linkpromo: "blog",
     title: "Prepara tus tragos preferidos",
-    info: "¡Aprovecha nuestras ofertas!",
-    buttonInfo: "¡Aprovechalos!",
+    info: "Visita nuestro blog y transformate en bartender de entrecasa",
+    buttonInfo: "Ver blog",
   },
 ];
 const Slideshow = () => {
