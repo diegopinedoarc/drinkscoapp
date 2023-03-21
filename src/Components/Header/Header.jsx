@@ -32,6 +32,7 @@ const Header = () => {
 
           <CartModal />
           <UserModal />
+
           {/* <motion.div whileTap={{ scale: 0.92 }}> */}
           {/* <Link to="login"> */}
           <UserNavStyled>

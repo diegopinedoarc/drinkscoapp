@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {
   BarraItem,
   BarraList,
+  BlogHeroContainer,
   BlogSubTitle,
   BlogTitle,
   BlogWrapper,
@@ -25,25 +26,20 @@ const Blog = ({ id }) => {
 
   return (
     <BlogWrapper>
-      <BlogTitle style={{ fontSize: "1.8rem" }}>
-        Bienvenido a nuestro Blog{" "}
-      </BlogTitle>
-      <BlogSubTitle style={{ fontSize: "2.5rem" }}>
-        ¡Bartender de entrecasa!
-      </BlogSubTitle>
+      <BlogHeroContainer>
+        <BlogTitle>Bienvenido a nuestro Blog</BlogTitle>
+        <BlogSubTitle>¡Bartender de entrecasa!</BlogSubTitle>
+      </BlogHeroContainer>
+
       <ContainerTips>
-        <BlogSubTitle style={{ color: "var(--azul)" }}>
-          Las primeras botellas
-        </BlogSubTitle>
+        <BlogSubTitle>Las primeras botellas</BlogSubTitle>
         <TipsInfo>
           Primero tenes que tener los ingredientes para beber lo que a vos te
           gusta. Compra primero las botellas de tu receta favorita; despues iras
           sumando botellas y recetas a tu repertorio. A continuacion te dejo mis
           recomendados para armar una barra basica.
         </TipsInfo>
-        <BlogSubTitle style={{ color: "var(--azul)" }}>
-          Barra basica
-        </BlogSubTitle>
+        <BlogSubTitle>Barra basica</BlogSubTitle>
         <TipsInfo>
           Podes Armar una barra basica con tan solo 4 botellas de lo que mas te
           gusta beber, mas algunos mixers. Elegi tus favoritos de esta lista de

@@ -8,17 +8,17 @@ import {
   SlideTitle,
 } from "./SlideshowStyle";
 import "react-slideshow-image/dist/styles.css";
-import { Slide } from "react-slideshow-image";
+import { Fade } from "react-slideshow-image";
 
 import { Link } from "react-router-dom";
 
 const slideImages = [
   {
-    url: "https://res.cloudinary.com/dpxe6utid/image/upload/v1668126872/drinksCo/backgbarrica_nrvrqq.jpg",
+    url: "https://res.cloudinary.com/dpxe6utid/image/upload/v1679411566/drinksCo/banner-img-1_neu_rwewu5.jpg",
     caption: "Slide 1",
     price: "$5000",
     linkpromo: "contacto",
-    title: "Envios a todo el pais",
+    title: "Las mejores bebidas",
     info: "",
     buttonInfo: "¡Consultanos!",
   },
@@ -44,7 +44,7 @@ const slideImages = [
 const Slideshow = () => {
   return (
     <div style={{ width: "100%" }}>
-      <Slide>
+      <Fade>
         {slideImages.map((slideImage, index) => (
           <SliderWrapper key={index}>
             <SlideContainer
@@ -60,7 +60,7 @@ const Slideshow = () => {
             </SlideContainer>
           </SliderWrapper>
         ))}
-      </Slide>
+      </Fade>
     </div>
   );
 };

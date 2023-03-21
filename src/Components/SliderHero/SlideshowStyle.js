@@ -54,6 +54,7 @@ export const SlideInfoContainer = styled.div`
   text-align: center;
   gap: 1rem;
   border-radius: 0.5rem;
+  box-shadow: 2px 4px 12px 2px var(--negroheader);
 
   @media only screen and (max-width: 624px) {
     width: 16rem;

@@ -12,9 +12,10 @@ export const OfertaCardContainer = styled.div`
   padding: 1rem;
   background-color: var(--blancotransp);
   border-radius: 1rem 1rem 0rem 1rem;
+  box-shadow: 1px 2px 12px 2px var(--negroheader);
   &:hover {
     /* background-color: black; */
-    box-shadow: 1px 2px 6px 2px var(--naranja);
+    box-shadow: 1px 2px 12px 2px var(--naranja);
   }
   @media only screen and (max-width: 1000px) and (min-width: 624px) {
     /* flex-direction: column; */

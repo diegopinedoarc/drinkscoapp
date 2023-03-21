@@ -18,6 +18,7 @@ export const MenusWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 45%;
 `;
 export const LinkContainerStyled = styled.div`
   font-size: 1.2rem;
